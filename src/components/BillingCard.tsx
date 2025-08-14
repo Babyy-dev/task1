@@ -65,21 +65,15 @@ const BillingCard: React.FC<BillingCardProps> = ({
         height: "100%",
         display: "flex",
         flexDirection: "column",
-        maxWidth: isMobile ? "100%" : isTablet ? 350 : 380,
+        width: isMobile ? "100%" : 350,
         mx: "auto",
         cursor: disabled ? "not-allowed" : "pointer",
         opacity: disabled ? 0.6 : 1,
-        border: isPopular
-          ? `2px solid ${theme.palette.primary.main}`
-          : "1px solid rgba(0, 0, 0, 0.06)",
-        transform: isPopular ? "scale(1.05)" : "scale(1)",
+        border: "1px solid rgba(0, 0, 0, 0.06)",
+        transform: "scale(1)",
         transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
         "&:hover": {
-          transform: disabled
-            ? "none"
-            : isPopular
-            ? "scale(1.05)"
-            : "scale(1.02)",
+          transform: disabled ? "none" : "scale(1.02)",
           boxShadow: disabled ? "none" : "0 12px 32px rgba(0, 0, 0, 0.15)",
         },
         "&:focus-within": {

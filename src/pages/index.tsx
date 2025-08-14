@@ -42,7 +42,6 @@ const Index: React.FC = () => {
         "API access",
       ],
       onSelectPlan: () => console.log("Professional plan selected"),
-      isPopular: true,
     },
     {
       planName: "Enterprise",
@@ -84,12 +83,8 @@ const Index: React.FC = () => {
             sx={{
               fontSize: { xs: "2.5rem", sm: "3rem", md: "3.5rem" },
               fontWeight: 800,
-              color: theme.palette.text.primary,
+              color: theme.palette.primary.main,
               mb: 2,
-              background: `linear-gradient(135deg, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
-              backgroundClip: "text",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
             }}
           >
             Choose Your Plan
