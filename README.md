@@ -1,20 +1,10 @@
 # 🚀 Project Title & Tagline
 
-## **Task Manager**: A Task Management System Built with Vite, React, and TypeScript 🕒️
-
-**Tagline**: "Streamline your tasks and stay organized with Task Manager!"
+## **Billing Desk**: A Billing Management System Built with Vite, React, and TypeScript 🕒️
 
 ## 📖 Description
 
-Task Manager is a comprehensive task management system designed to help you stay on top of your tasks and projects. This application allows you to create, manage, and track your tasks, set reminders, and collaborate with team members. Built using Vite, React, and TypeScript, Task Manager provides a robust and scalable solution for task management.
-
-Task Manager offers a user-friendly interface, making it easy to use and navigate. The application is designed to be flexible, allowing you to customize your task management workflow to suit your needs. With Task Manager, you can:
-
-- Create and manage tasks with ease
-- Set reminders and due dates
-- Assign tasks to team members
-- Track task progress and completion
-- Collaborate with team members in real-time
+Billing Card offers a user-friendly interface, making it easy to use and navigate. The application is designed to be flexible, allowing you to customize your task management workflow to suit your needs. With Task Manager, you can:
 
 ## ⚙️ How to Run
 
@@ -27,12 +17,10 @@ To run Task Manager, follow these steps:
 
 ## 🧪 Testing Instructions
 
-Task Manager includes a comprehensive testing suite using Jest and Enzyme. To run the tests, follow these steps:
+To run the tests, follow these steps:
 
 1. Install dependencies: `npm install`
 2. Run the tests: `npm test`
-
-**Test Coverage**: Task Manager has a test coverage of 90% or higher.
 
 ## 📸 Screenshots
 
